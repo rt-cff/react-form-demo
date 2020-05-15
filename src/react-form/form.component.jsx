@@ -40,7 +40,6 @@ export const useFormContext = (id) => {
     return [
         value, 
         (v) => {
-            console.log('update value')
             updateValue(id, v)
         }, 
         horizontal,

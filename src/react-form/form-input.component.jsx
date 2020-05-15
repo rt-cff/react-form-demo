@@ -130,7 +130,7 @@ export const DateInput = ({value, updateValue, ...props}) => {
     // const handleChange = onChange || ((date) => {
     //     updateValue(date)
     // })
-console.log(value)
+
     return (
         <DatePicker
             selected = {value}
